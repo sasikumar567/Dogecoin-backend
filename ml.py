@@ -12,8 +12,8 @@ import os
 
 # === Fetch environment variables (Render will store your secrets) ===
 DB_USER = os.getenv("DB_USER", "postgres")
-DB_PASSWORD = os.getenv("DB_PASSWORD", "your_password")
-DB_HOST = os.getenv("DB_HOST", "db.<your-supabase-id>.supabase.co")
+DB_PASSWORD = os.getenv("DB_PASSWORD", "sasikumar23")
+DB_HOST = os.getenv("DB_HOST", "db.zwcmmwdepxwdfdvxtamb.supabase.co")
 DB_PORT = os.getenv("DB_PORT", "5432")
 DB_NAME = os.getenv("DB_NAME", "postgres")
 
