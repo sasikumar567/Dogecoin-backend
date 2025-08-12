@@ -11,11 +11,13 @@ from sqlalchemy import create_engine
 import os
 
 # === Fetch environment variables (Render will store your secrets) ===
-DB_USER = os.getenv("DB_USER", "postgres")
+DB_USER = os.getenv("DB_USER", "postgres.zwcmmwdepxwdfdvxtamb")   # Use pooler user
 DB_PASSWORD = os.getenv("DB_PASSWORD", "sasikumar23")
-DB_HOST = os.getenv("DB_HOST", "db.zwcmmwdepxwdfdvxtamb.supabase.co")
+DB_HOST = os.getenv("DB_HOST", "aws-0-ap-south-1.pooler.supabase.com")  # Pooler host
 DB_PORT = os.getenv("DB_PORT", "5432")
 DB_NAME = os.getenv("DB_NAME", "postgres")
+
+
 
 # Download DOGE price data
 start_dt = "2018-12-01"
